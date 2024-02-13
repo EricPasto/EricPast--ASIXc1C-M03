@@ -10,8 +10,8 @@ L'usuari introduirà primer el nom dels dos equips i després el resultat actual
 
 equip1 = ""
 equip2 = ""
-puntse1 = 0
-puntse2 = 0
+puntse1 = [0]
+puntse2 = [0]
 
 #obtenirEquips
 def obtenirEquips():

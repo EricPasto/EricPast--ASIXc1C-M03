@@ -10,8 +10,8 @@ equipB = ""
 marcadorA = [0]
 marcadorB = [0]
 def llegirequips():
-    equipA=input()
-    equipB=input()
+    equipA=input("Nom de l'equip 1: ")
+    equipB=input("Nom de l'equip 2: ")
     return equipA, equipB
 def comentar_jugades():
     #EquipB
@@ -47,7 +47,7 @@ def qui_guanya():
     return guanyador
 
 def llegiranotacions(punts=None):
-        punts = input().split(" ")
+        punts = input(": ").split(" ")
         while not hem_acabat(punts):
             marcadorA.append(int(punts[0]))
             marcadorB.append(int(punts[1]))
