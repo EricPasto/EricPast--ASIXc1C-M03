@@ -1,8 +1,8 @@
 """
 Eric Pastó
-ASIX1B
+ASIXc1C
 7/2/2024
-Matchanalyzer
+MatchAnalizer
 """
 #demanar equips
 equipA = ""
