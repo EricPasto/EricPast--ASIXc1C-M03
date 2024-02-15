@@ -42,19 +42,24 @@ def qui_guanya():
         guanyador = equipA
     elif marcadorB[-1] > marcadorA[-1]:
         guanyador = equipB
-    else:
-        print("Empat")
     return guanyador
 
 def llegiranotacions(punts=None):
+    try:
         punts = input(": ").split(" ")
         while not hem_acabat(punts):
             marcadorA.append(int(punts[0]))
             marcadorB.append(int(punts[1]))
-            punts=input().split(" ")
+            punts=input(": ").split(" ")
+    except:
+        print("Posa numeros!")
 
 equipA, equipB = llegirequips()
 llegiranotacions()
 guanyador=qui_guanya()
 comentar_jugades()
-print(f"El guanyador es {guanyador}")
+
+if guanyador != "":
+    print(f"El guanyador es: {guanyador}")
+else:
+    print("Empat!")
