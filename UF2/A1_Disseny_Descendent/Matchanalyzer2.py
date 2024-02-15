@@ -4,9 +4,7 @@ ASIXc1C
 7/2/2024
 MatchAnalizer
 """
-#demanar equips
-equipA = ""
-equipB = ""
+
 marcadorA = [0]
 marcadorB = [0]
 def llegirequips():
