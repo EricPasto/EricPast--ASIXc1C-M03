@@ -5,8 +5,8 @@ ASIXc1C
 MatchAnalizer
 """
 
-marcadorA = [0]
-marcadorB = [0]
+marcadorA = []
+marcadorB = []
 def llegirequips():
     equipA=input("Nom de l'equip 1: ")
     equipB=input("Nom de l'equip 2: ")
@@ -50,12 +50,13 @@ def llegiranotacions(punts=None):
             marcadorB.append(int(punts[1]))
             punts=input(": ").split(" ")
     except:
-        print("Posa numeros!")
+        print("Error - Posa numeros!")
 
 equipA, equipB = llegirequips()
 llegiranotacions()
 guanyador=qui_guanya()
 comentar_jugades()
+print(marcadorA, marcadorB)
 
 if guanyador != "":
     print(f"El guanyador es: {guanyador}")
