@@ -94,3 +94,39 @@
 2023-04-25 11:57:23,443 - root - INFO - Archivo procesado: ACTITUD DE VENCEDOR - JOHN C. MAXWELL.txt
 2023-04-25 11:57:23,444 - root - ERROR - Error al procesar archivo entrada.in: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
 2023-04-25 11:57:23,444 - root - ERROR - Error al procesar archivo x.txt: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-02-22 08:16:30,566 - root - INFO - Archivo procesado: paraules.txt
+2024-02-22 08:16:30,643 - root - INFO - Archivo procesado: diccionari.txt
+2024-02-22 08:16:30,658 - root - ERROR - Error al procesar archivo entrada.in: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-02-22 08:16:30,826 - root - INFO - Archivo procesado: 17 LEYES DEL TRABAJO EN EQUIPO.txt
+2024-02-22 08:16:30,845 - root - ERROR - Error al procesar archivo entrada.dat: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-02-22 08:16:31,156 - root - INFO - Archivo procesado: Abe Shana - La última sirena.txt
+2024-02-22 08:16:31,415 - root - INFO - Archivo procesado: El Oro Y La Ceniza - Abecassis Eliette .txt
+2024-02-22 08:16:31,431 - root - ERROR - Error al procesar archivo x.txt: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-02-22 08:16:31,572 - root - INFO - Archivo procesado: VIVE TU SUEÑO - JOHN MAXWELL.txt
+2024-02-22 08:16:31,664 - root - INFO - Archivo procesado: 25 MANERAS DE GANARSE A LA GENTE - .txt
+2024-02-22 08:16:31,782 - root - INFO - Archivo procesado: ACTITUD DE VENCEDOR - JOHN C. MAXWELL.txt
+2024-02-22 08:16:31,907 - root - INFO - Archivo procesado: SEAMOS PERSONAS DE INFLUENCIA - JOHN MAXWELL.txt
+2024-02-22 08:17:09,999 - root - INFO - Archivo procesado: paraules.txt
+2024-02-22 08:17:10,042 - root - INFO - Archivo procesado: diccionari.txt
+2024-02-22 08:17:10,043 - root - ERROR - Error al procesar archivo entrada.in: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-02-22 08:17:10,186 - root - INFO - Archivo procesado: 17 LEYES DEL TRABAJO EN EQUIPO.txt
+2024-02-22 08:17:10,187 - root - ERROR - Error al procesar archivo entrada.dat: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-02-22 08:17:10,497 - root - INFO - Archivo procesado: Abe Shana - La última sirena.txt
+2024-02-22 08:17:10,728 - root - INFO - Archivo procesado: El Oro Y La Ceniza - Abecassis Eliette .txt
+2024-02-22 08:17:10,728 - root - ERROR - Error al procesar archivo x.txt: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-02-22 08:17:10,855 - root - INFO - Archivo procesado: VIVE TU SUEÑO - JOHN MAXWELL.txt
+2024-02-22 08:17:10,937 - root - INFO - Archivo procesado: 25 MANERAS DE GANARSE A LA GENTE - .txt
+2024-02-22 08:17:11,030 - root - INFO - Archivo procesado: ACTITUD DE VENCEDOR - JOHN C. MAXWELL.txt
+2024-02-22 08:17:11,143 - root - INFO - Archivo procesado: SEAMOS PERSONAS DE INFLUENCIA - JOHN MAXWELL.txt
+2024-02-22 08:17:38,207 - root - INFO - Archivo procesado: paraules.txt
+2024-02-22 08:17:38,240 - root - INFO - Archivo procesado: diccionari.txt
+2024-02-22 08:17:38,241 - root - ERROR - Error al procesar archivo entrada.in: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-02-22 08:17:38,381 - root - INFO - Archivo procesado: 17 LEYES DEL TRABAJO EN EQUIPO.txt
+2024-02-22 08:17:38,382 - root - ERROR - Error al procesar archivo entrada.dat: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-02-22 08:17:38,679 - root - INFO - Archivo procesado: Abe Shana - La última sirena.txt
+2024-02-22 08:17:38,932 - root - INFO - Archivo procesado: El Oro Y La Ceniza - Abecassis Eliette .txt
+2024-02-22 08:17:38,932 - root - ERROR - Error al procesar archivo x.txt: 'utf-8' codec can't decode byte 0xa4 in position 12: invalid start byte
+2024-02-22 08:17:39,058 - root - INFO - Archivo procesado: VIVE TU SUEÑO - JOHN MAXWELL.txt
+2024-02-22 08:17:39,140 - root - INFO - Archivo procesado: 25 MANERAS DE GANARSE A LA GENTE - .txt
+2024-02-22 08:17:39,232 - root - INFO - Archivo procesado: ACTITUD DE VENCEDOR - JOHN C. MAXWELL.txt
+2024-02-22 08:17:39,345 - root - INFO - Archivo procesado: SEAMOS PERSONAS DE INFLUENCIA - JOHN MAXWELL.txt
