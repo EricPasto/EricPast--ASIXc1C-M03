@@ -1,14 +1,7 @@
-"""
-Eric Pastó
-Aleix de Diego
-Erik Nuñez
-ASIX1B
-20/2/2023
-ParaulesBojes -R2
-"""
+def fer_aleatories():
+    with open("paraules.txt", "r") as f:
+        text = f.read()
 
-import random
-def fer_aleatories(text):
     paraules = text.split()
     paraulesboges = []
     caractersespecials = [",", ".", "?", "¿", "'", "!", "¡", ":", ";"]
@@ -19,8 +12,9 @@ def fer_aleatories(text):
             paraulesboges.append(p[0] + ''.join(random.sample(p[1:-2], len(p)-3)) + p[-2] + p[-1])
         else:
             paraulesboges.append(p[0] + ''.join(random.sample(p[1:-1], len(p)-2)) + p[-1])
-    return ' '.join(paraulesboges)
 
-text = input("")
-frasealeatoria = fer_aleatories(text)
-print(frasealeatoria)
+    with open("boges.txt", "w") as f:
+        f.write(' '.join(paraulesboges))
+
+
+fer_aleatories()
