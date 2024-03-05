@@ -15,7 +15,7 @@
 
 listapalabras = []
 cEspeciales = [".", ",", "?", ":", ";", "!", "'", "¡", "¿"]
-def frase():
+def obtener_frase():
     texto = input("Dime el texto a desordenar: ")#.split(" ")
     texto_ord = texto.split
     listapalabras.append(texto)
@@ -27,7 +27,7 @@ def desordenar_palabras(texto):
         print (pLetra)
         print (uLetra)
 
-frase()
+obtener_frase()
 desordenar_palabras()
 #print (desordenar_palabras())
 
