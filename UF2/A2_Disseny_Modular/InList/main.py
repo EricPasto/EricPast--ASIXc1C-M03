@@ -1,3 +1,6 @@
 import kernel
 
-kernel.readInList()
+def main():
+    print(kernel.readInList())
+
+main()
