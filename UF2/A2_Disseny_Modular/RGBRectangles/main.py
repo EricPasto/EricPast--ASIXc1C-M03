@@ -1,11 +1,9 @@
 import systemColors
 
-#identificar la mesura del rectangle
-#identificar el color amb el que pintar el rectangle
-#crear el rectangle
-#Com sortir
+llista = []
+rectangulos = []
 
-colors={
+colors = {
     "RED": systemColors.CRED,
     "BLUE": systemColors.CBLUE,
     "YELLOW": systemColors.CYELLOW,
@@ -14,33 +12,29 @@ colors={
     "VIOLET": systemColors.CVIOLET,
     "GREEN": systemColors.CGREEN
 }
-#def identificarRectangle():
-def ferRectangle():
-    pass
+def forma(color, ancho, alto):
     try:
-        for i in range(xRectangle):
-            for l in range(yRectangle):
-                print(colors[paraules[0].upper()]+ "x ", end="")
-            print("")
-    except:
-        print("El color que acabas de introducir no esta en la lista")
+        rectangulo = ""
+        for i in range(ancho):
+            for l in range(alto):
+                rectangulo += colors[color.upper()] + "x "
+            rectangulo += "\n"
+        rectangulos.append(rectangulo)
+    except KeyError:
+        print("El color que acabas de introducir no está en la lista")
 
+# Solicitar rectángulos hasta que se ingrese ";q" o ";Q"
+while True:
+    rectangle = input("Introduce el rectángulo (color ancho largo): ")
+    if rectangle.lower() in (';q', ';Q'):
+        break
+    paraules = rectangle.split()
+    color = paraules[0]
+    ancho = int(paraules[1])
+    alto = int(paraules[2])
+    forma(color, ancho, alto)
 
-dadesRectangle = []
-finish = False
-demanarRectangle = input(": ")
-paraules = demanarRectangle.split()
-yRectangle = int(paraules[1])
-xRectangle = int(paraules[2])
-dadesRectangle.append(demanarRectangle)
-while not finish:
-    demanarRectangle = input(": ").split(" ")
-    dadesRectangle.append(demanarRectangle)
-    ferRectangle()
-    if demanarRectangle[0] == ';q' or demanarRectangle[0] == ';Q':
-        finish = True
+# Imprimir todos los rectángulos
+for r in rectangulos:
+    print(r)
 
-    #return paraules, yRectangle, xRectangle
-
-
-#identificarRectangle()
