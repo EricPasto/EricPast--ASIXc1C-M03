@@ -1,8 +1,6 @@
 import systemColors
 
-llista = []
 rectangulos = []
-
 colores = {
     "RED": systemColors.CRED,
     "BLUE": systemColors.CBLUE,
