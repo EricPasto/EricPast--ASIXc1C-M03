@@ -1,5 +1,4 @@
 import crazy_words
-import main
 
 def getDataFromKeyboard():
     crazy_words.Texto_Ordenado, crazy_words.frase = crazy_words.frase()
