@@ -28,12 +28,12 @@ def frase():
         print("Error - Lo que has introducido es incorrecto")
 def separar():
     for palabrades in Texto_Ordenado:
-        if len(palabrades)>=3:
-            if palabrades[-1] in frase:
+        if len(palabrades) >= 3:
+            if palabrades[-1] in frase and palabrades[-1] not in cEspeciales:
                 sep=list(palabrades[1:-1])
                 random.shuffle(sep)
                 separado=palabrades[0]+''.join(sep)+palabrades[-1]
-            else:
+            elif palabrades[-1] in cEspeciales:
                 sep=list(palabrades[1:-2])
                 random.shuffle(sep)
                 separado=palabrades[0]+''.join(sep)+palabrades[-2]+palabrades[-1]
