@@ -5,3 +5,9 @@ def getDataFromKeyboard():
     crazy_words.palabras = crazy_words.separar()
     crazy_words.frase_Desordenado = crazy_words.juntar()
     crazy_words.resultado()
+
+def getDataFromChatGPT():
+    pass
+
+def getDataFromServer():
+    pass

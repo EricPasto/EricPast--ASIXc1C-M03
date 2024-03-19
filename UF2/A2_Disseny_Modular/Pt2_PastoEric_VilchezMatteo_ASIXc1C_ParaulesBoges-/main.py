@@ -5,11 +5,11 @@ import crazy_words
 import data_source
 opcio = []
 def menu():
-    demanar = input("Chatgpt(C), Teclat(T), Link(L): ")
+    demanar = input("Chatgpt(C), Teclat(T), Server(S): ")
     if demanar == 'T' or demanar == 't':
         opcio.append("teclat")
-    elif demanar == "L" or demanar == 'l':
-        opcio.append("link")
+    elif demanar == "S" or demanar == 's':
+        opcio.append("server")
     elif demanar == "C" or demanar == 'c':
         opcio.append("chatgpt")
     else:
@@ -17,8 +17,8 @@ def menu():
 def identificarmenu():
     if opcio[0] == "teclat":
         data_source.getDataFromKeyboard()
-    elif opcio[0] == "link":
-        print("link")
+    elif opcio[0] == "server":
+        print("server")
         #getDataFromApiNinja
     elif opcio[0] == "chatgpt":
         print("chatgpt")
