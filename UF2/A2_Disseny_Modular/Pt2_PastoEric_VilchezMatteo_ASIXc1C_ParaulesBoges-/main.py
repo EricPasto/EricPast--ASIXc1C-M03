@@ -2,7 +2,7 @@
 
 #openai.api_key ="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"
 import crazy_words
-
+#import data_source
 opcio = []
 def menu():
     demanar = input("Chatgpt(C), Teclat(T), Link(L): ")
