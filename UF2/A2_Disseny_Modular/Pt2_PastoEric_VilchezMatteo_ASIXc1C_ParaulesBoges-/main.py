@@ -1,15 +1,7 @@
-"""
-Eric Pastó
-Aleix de Diego
-Erik Nuñez
-ASIX1B
-20/2/2023
-ParaulesBojes -R2
-"""
-import openai
+#import openai
 
-openai.api_key ="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"
-import paraulesboges
+#openai.api_key ="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"
+import crazy_words
 
 opcio = []
 def menu():
@@ -24,9 +16,10 @@ def menu():
         print("Error, indica una de les opcions indicades.")
 def identificarmenu():
     if opcio[0] == "teclat":
-        paraulesboges.text = input("Escriu la frase per teclat: ")
-        paraulesboges.frasealeatoria = paraulesboges.fer_aleatories(paraulesboges.text)
-        print(paraulesboges.frasealeatoria)
+        crazy_words.Texto_Ordenado,frase = crazy_words.frase()
+        crazy_words.palabras = crazy_words.separar()
+        crazy_words.frase_Desordenado = crazy_words.juntar()
+        crazy_words.resultado()
     elif opcio[0] == "link":
         print("link")
         #getDataFromApiNinja
