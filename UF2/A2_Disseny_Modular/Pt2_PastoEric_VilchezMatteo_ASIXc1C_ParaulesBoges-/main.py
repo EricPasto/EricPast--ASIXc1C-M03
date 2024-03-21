@@ -21,8 +21,7 @@ def identificarmenu():
         print("server")
         #getDataFromApiNinja
     elif opcio[0] == "chatgpt":
-        print("chatgpt")
-        #getDataFromChatGPT()
+        data_source.getDataFromChatGPT()
 
 
 menu()
