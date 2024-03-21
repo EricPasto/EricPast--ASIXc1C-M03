@@ -18,11 +18,9 @@ def identificarmenu():
     if opcio[0] == "teclat":
         data_source.getDataFromKeyboard()
     elif opcio[0] == "server":
-        print("server")
-        #getDataFromApiNinja
+        data_source.getDataFromServer()
     elif opcio[0] == "chatgpt":
-        print("chatgpt")
-        #getDataFromChatGPT()
+        data_source.getDataFromChatGPT()
 
 
 menu()

@@ -14,8 +14,10 @@
 #5 Escribimos un "Traducido ordenado" y ahí mostrará el texto original que mandó el usuario
 
 import random
+
+import requests
+
 cEspeciales = [".", ",", "?", ":", ";", "!", "'", "¡", "¿"]
-#letras=('a','A','b','B','c','C','d','D','e','E','f','F','g','G','h','H','i','I','j','J','k','K','l','L','m','M','n','N','o','O','p','P','q','Q','r','R','s','S','t','T','u','U','v','V','w','W','x','X','y','Y','z','Z')
 Texto_Ordenado=[]
 palabras=[]
 frase_Desordenado=[]
@@ -26,6 +28,7 @@ def frase():
         return frase_ordenada,frase
     except:
         print("Error - Lo que has introducido es incorrecto")
+
 def separar():
     for palabrades in Texto_Ordenado:
         if len(palabrades) >= 3:
@@ -41,7 +44,6 @@ def separar():
             separado=palabrades
         palabras.append(separado)
     return palabras
-
 def juntar():
     frasedes=' '.join(palabras)
     return frasedes
