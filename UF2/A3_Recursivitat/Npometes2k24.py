@@ -1,4 +1,3 @@
-
 def getAppleSongStanza(applesCount):
     if (applesCount == 0):
         print("Final.")
@@ -22,4 +21,4 @@ def getAppleSongStanza(applesCount):
         #return applesCount - 1
         getAppleSongStanza(applesCount - 1)
 
-getAppleSongStanza(4)
+getAppleSongStanza(995)
