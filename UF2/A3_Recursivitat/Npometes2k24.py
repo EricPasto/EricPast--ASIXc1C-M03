@@ -19,7 +19,7 @@ def getAppleSongStanza(applesCount):
      \
                  f"veureu com dansa el pomer."
         print(stanza)
-        return applesCount - 1
-        getAppleSongStanza(applesCount)
+        #return applesCount - 1
+        getAppleSongStanza(applesCount - 1)
 
-getAppleSongStanza(2)
+getAppleSongStanza(4)
