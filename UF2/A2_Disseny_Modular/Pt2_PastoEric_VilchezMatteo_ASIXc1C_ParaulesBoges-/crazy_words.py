@@ -13,9 +13,9 @@
 #4 Devolvemos toddo el texto desordenado
 #5 Escribimos un "Traducido ordenado" y ahí mostrará el texto original que mandó el usuario
 
-#import openai
+import openai
 import random
-#openai.api_key = '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'
+openai.api_key = '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'
 
 
 cEspeciales = [".", ",", "?", ":", ";", "!", "'", "¡", "¿"]
