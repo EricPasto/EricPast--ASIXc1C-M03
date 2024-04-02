@@ -15,7 +15,7 @@
 
 import openai
 import random
-openai.api_key = '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'
+#openai.api_key = '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'
 
 
 cEspeciales = [".", ",", "?", ":", ";", "!", "'", "¡", "¿"]
