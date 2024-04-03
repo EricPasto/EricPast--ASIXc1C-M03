@@ -1,10 +1,10 @@
-import openai #pip install openai
+#import openai #pip install openai
 
 #Generate API key
 
 #API key: https://platform.openai.com/account/api-keys
 
-openai.api_key ="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"
+#openai.api_key ="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"
 
 
 

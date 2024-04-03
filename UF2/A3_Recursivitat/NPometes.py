@@ -26,3 +26,5 @@ def getAppleSong(applesCount):
     else:
         return applesCount -1
         getAppleSongStanza()
+
+getAppleSongStanza()
