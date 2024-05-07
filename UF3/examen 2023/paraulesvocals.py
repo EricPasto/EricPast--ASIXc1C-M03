@@ -30,4 +30,4 @@ def copiar_i_afegir_vocals(arxiu_origen, arxiu_desti):
             f_desti.write(f"{paraula} - {num_vocals} vocals\n")
 
 # Crida a la funció per copiar i afegir la quantitat de vocals
-copiar_i_afegir_vocals("paraules.txt", "paraulesQuantitatVocals.txt")
+#copiar_i_afegir_vocals("paraules.txt", "paraulesQuantitatVocals.txt")

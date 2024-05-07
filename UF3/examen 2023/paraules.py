@@ -29,5 +29,5 @@ def guardar_paraules_per_longitud(arxiu_origen, prefixe_fitxer_sortida, carpeta_
                 f_sortida.write(f"{paraula}\n")
 
 # Crida a la funció per desar les paraules per longitud
-guardar_paraules_per_longitud("paraules.txt", "paraules_longitud", "sortida")
+#guardar_paraules_per_longitud("paraules.txt", "paraules_longitud", "sortida")
 
