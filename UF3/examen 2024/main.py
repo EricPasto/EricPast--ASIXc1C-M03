@@ -14,7 +14,7 @@ logging.basicConfig(filename='main.log', level=logging.INFO, format='%(asctime)s
 
 # Llamadas a las funciones de los módulos paraules y paraulesvocals
 try:
-    paraules.guardar_paraules_per_longitud("paraules.txt", "paraules_lletres", "sortida")
+    paraules.guardar_paraules_per_cua("paraules.txt", "paraules_lletres", "sortida")
     logging.info("Se han guardado las palabras por letras correctamente.")
 except Exception as e:
     logging.error(f"Error al guardar las palabras por letras: {str(e)}")

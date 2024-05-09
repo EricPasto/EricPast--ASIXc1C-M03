@@ -9,7 +9,7 @@ ing,itb,tic,tica i ció
 """
 import os
 
-def guardar_paraules_per_longitud(arxiu_origen, prefixe_fitxer_sortida, carpeta_sortida):
+def guardar_paraules_per_cua(arxiu_origen, prefixe_fitxer_sortida, carpeta_sortida):
     # Comprova si la carpeta de sortida existeix, si no, la crea
     if not os.path.exists(carpeta_sortida):
         os.makedirs(carpeta_sortida)
