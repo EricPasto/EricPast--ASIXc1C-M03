@@ -21,7 +21,7 @@ def guardar_paraules_per_longitud(arxiu_origen, prefixe_fitxer_sortida, carpeta_
 
     # Crea fitxers per a cada cua de paraula especificada
     for cua in ["ing", "itb", "tic", "tica", "ció"]:
-        # Filtra les paraules amb la cua actual
+        # Filtra les paraules amb la cua
         paraules_filtrades = [paraula for paraula in paraules if cua in paraula]
         # Crea el nom del fitxer de sortida
         nom_fitxer_sortida = os.path.join(carpeta_sortida, f"{prefixe_fitxer_sortida}_{cua}.txt")

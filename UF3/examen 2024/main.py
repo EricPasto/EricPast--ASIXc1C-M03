@@ -20,7 +20,7 @@ except Exception as e:
     logging.error(f"Error al guardar las palabras por letras: {str(e)}")
 
 try:
-    paraulesquantitat.copiar_i_afegir_vocals("paraules.txt", "paraulesQuantitat.txt")
+    paraulesquantitat.copiar_i_afegir_lletres("paraules.txt", "paraulesQuantitat.txt")
     logging.info("Se ha creado el archivo 'paraulesQuantitat.txt' correctamente.")
 except Exception as e:
     logging.error(f"Error al crear el archivo 'paraulesQuantitat.txt': {str(e)}")
